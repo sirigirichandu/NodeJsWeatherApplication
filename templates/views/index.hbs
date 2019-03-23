@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Weather Application</title>
+        <link rel="stylesheet" href="/styles/style.css" />        
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            
+            <form>
+               <input type="text" placeholder="Enter country" />
+                <button>Submit</button> 
+
+                <p id="m1"></p>
+                <p id="m2"></p>
+            </form>            
+        </div>  
+
+        {{>footer}}
+
+        <script type="text/javascript" src="/scripts/script.js"></script>
+    </body>
+</html>
