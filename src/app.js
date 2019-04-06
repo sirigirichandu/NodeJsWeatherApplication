@@ -55,14 +55,14 @@ app.get('/weather', (req, res) => {
 })
 
 app.get('/help', (req, res) => {
-    res.render('index',{
+    res.render('help',{
         title: 'Help',
         author: 'Chandra Sekhar Sirigiri'
     })
 })
 
 app.get('/about', (req, res) => {
-    res.render('index',{
+    res.render('about',{
         title: 'About me',
         author: 'Chandra Sekhar Sirigiri'
     })
